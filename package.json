@@ -2,10 +2,13 @@
   "name": "forkify",
   "version": "1.0.0",
   "description": "Recipe application",
-  "deafult": "dist/index.html",
+  "default": "dist/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "targets": {
     "main": false
+  },
+  "alias": {
+    "process": false
   },
   "scripts": {
     "start": "parcel index.html",
